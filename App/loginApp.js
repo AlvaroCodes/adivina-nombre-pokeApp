@@ -1,5 +1,3 @@
-console.log();
-
 let bt_comenzar =  document.querySelector('#bt-comenzar');
 bt_comenzar.addEventListener('click', ()=>{
 

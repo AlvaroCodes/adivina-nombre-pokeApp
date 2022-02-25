@@ -70,7 +70,7 @@ obtenerDatos();
 
 const enviarResultado = () => {
     let usuario = sessionStorage.getItem("usuario");
-    alert(usuario + ' ' + puntuacion);
+    alert(`El usuario ${usuario} ha conseguido ${puntuacion} puntos`);
 
     let form = document.createElement('form');
 
