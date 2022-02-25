@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokemonApp</title>
+   
+   <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    
+    <main class="inicio">
+        <header class="header">
+            <h4 class="header-titulo">PokemonApp</h4>
+            <p class="header-text">Adivina el nombre de todos los pokemon posibles
+                para conseguir la mejor puntuación
+            </p>
+        </header>
+
+        <div class="form__inicio" action="">
+            <label for="nombre">Ingresa tu Nick:</label>
+            <input class="form__inicio-input" id="usuario" type="text">
+            <input class="form__inicio-bt" id="bt-comenzar" type="button" value="¡Comenzar!">
+  
+         
+        </div>
+
+    </main>
+ 
+ 
+  
+
+    <div class="rankingUsuarios">
+        <h1>Ranking: </h1>
+        <br>
+        <ol id="rankingUsuarios" class="list-ranking">
+
+        </ol>
+    </div>
+
+
+    <script src="./loginApp.js"></script>
+    
+</body>
+</html>
