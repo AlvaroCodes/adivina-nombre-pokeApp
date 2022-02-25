@@ -13,14 +13,14 @@ bt_comenzar.addEventListener('click', ()=>{
             sessionStorage.setItem('usuario', id);
         }
 
-        window.open('http://localhost/DOC/Practica%206%20Pokemon/app.html', "_self");
+        window.open('http://localhost/DOC/adivina-nombre-pokeApp/App/app.html', "_self");
     }
 
    
     
 });
 
-$.post("http://localhost/DOC/Practica%206%20Pokemon/pokemonJSON.php", function(htmlexterno){
+$.post("http://localhost/DOC/adivina-nombre-pokeApp/App/pokemonJSON.php", function(htmlexterno){
     
 let li = ''
 htmlexterno.forEach(({usuario, puntuacion}) => {

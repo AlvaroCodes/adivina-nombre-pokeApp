@@ -1,6 +1,6 @@
 
 if (sessionStorage.length === 0){
-    window.open('http://localhost/DOC/Practica%206%20Pokemon/index-preubas.html', "_self");
+    window.open('http://localhost/DOC/adivina-nombre-pokeApp/App/', "_self");
 }
 
 
@@ -15,6 +15,8 @@ const obtenerDatos = () => {
     const api = new XMLHttpRequest();
     api.open('GET', url, true);
     api.send();
+  
+
 
     api.onreadystatechange = function (){
             if (this.status == 200 && this.readyState == 4){

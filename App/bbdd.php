@@ -21,14 +21,14 @@
 
         $statement ->execute();
 
-        header("Location: http://localhost/DOC/Practica%206%20Pokemon/index-preubas.html");
+        header("Location: http://localhost/DOC/adivina-nombre-pokeApp/App/");
         die();
     }
 
 
 } else {
     // 0 o sin valor o cualquier error
-    header("Location: http://localhost/DOC/Practica%206%20Pokemon/index-preubas.html");
+    header("Location: http://localhost/DOC/adivina-nombre-pokeApp/App/");
     die();
 }
 
