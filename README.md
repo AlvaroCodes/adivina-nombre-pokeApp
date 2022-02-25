@@ -1,8 +1,8 @@
 # adivina-nombre-pokeApp
 
 ## Pasos para probar la app
-1. Tener instalado XAMPP
-2. Crear la bbdd en mySQL con el nombre de pokeapp
+1. Tener instalado XAMPP. 
+2. Crear la bbdd en mySQL con el nombre de pokeapp y usar el script para hacer la BBDD.
 3. Dentro del htdocs/DOC clonar el proyecto (sino cambiar las rutas).
 
 ## Explicación del proyecto 
