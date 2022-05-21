@@ -9,4 +9,4 @@
 Es un juego sobre pokemon, se muestra una imagen y tu tienes que adivinar el nombre del pokemon. Por cada pokemon que aciertes se te suman 10 puntos, si fallas pierdes. El juego tiene un ranking con las personas que más puntos han realizado. 
 
 ### Tecnologías 
-Es un proyecto realizado con html, css, js (puro y jquery) y php. El objetivo era utilizar ajax tanto con el metodo post y get y usando diferentes tecnologías.
+Es un proyecto realizado con html, css, js, jquery y php. El objetivo era utilizar ajax tanto con el metodo post y get y usando diferentes tecnologías.
